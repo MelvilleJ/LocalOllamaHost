@@ -4,7 +4,8 @@ This project sets up an **AI server powered by Ollama** on Ubuntu, with cross-pl
 
 - **`main.py`** → Chat interface with the Ollama AI server  
 - **`vector.py`** → RAG (Retrieval Augmented Generation) pipeline for context-aware responses  
-- **`api.py`** → REST API endpoints for integrating the AI into **web apps** (e.g., personal portfolio, dashboards, or custom apps)  
+- **`api.py`** → REST API endpoints for integrating the AI into **web apps** (e.g., personal portfolio, dashboards, or custom apps)
+- **`chatbox.jsx`** → React Component to incorperate and test your local Agent.
 
 ---
 
