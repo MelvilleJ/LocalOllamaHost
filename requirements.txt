@@ -1,6 +1,19 @@
-langchain
-langchain-ollama
-langchain-chroma
-pandas
+# Core
+requests
+python-dotenv
+
+# API (FastAPI + Uvicorn)
 fastapi
+uvicorn[standard]
+
+# RAG / Vector DB
+langchain
+chromadb
+faiss-cpu
+
+# Embeddings & Models
+sentence-transformers
+
+# Optional Utilities
 pydantic
+numpy
